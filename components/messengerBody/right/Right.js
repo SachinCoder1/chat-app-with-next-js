@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import MessageBody from "./Messages";
 import { messages } from "../../../data/Data";
