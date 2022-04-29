@@ -18,7 +18,6 @@ function Messages({ conversation }) {
           return <MessageBody message={message} />;
         })}
 
-        {/* <input className="bg-light-blue absolute bottom-3 w-[98%] px-3 py-4 outline-main-blue rounded-full border-[1px] border-gray-200" type="text" placeholder="Message..." name="" id="" /> */}
         <div className="absolute bottom-2">
           <Input handleClick={handleClick} text={text} settext={settext} />
         </div>
