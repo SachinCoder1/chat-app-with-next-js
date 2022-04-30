@@ -14,8 +14,8 @@ function Messages({ conversation }) {
         id="divScroll"
         className="bg-white shadow-lg mt-5 relative shadow-gray-200 w-[95%] mx-auto bg-cover bg-center h-[85vh] py-3 px-1 overflow-y-auto"
       >
-        {messages.map((message) => {
-          return <MessageBody message={message} />;
+        {messages.map((message, index) => {
+          return <MessageBody key={index} message={message} />;
         })}
 
         <div className="absolute bottom-2">
